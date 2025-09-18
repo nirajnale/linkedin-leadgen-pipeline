@@ -49,11 +49,11 @@ Directors).\
 
 ``` mermaid
 flowchart TD
-    A[Scrape Jobs\nApify Actor] --> B[Industry Filter\nindustry_filter.py]
-    B --> C[Fetch Company Size\nfetch_company_size.py]
-    C --> D[Size Filter\nsize_filter.py]
-    D --> E[Fetch Contacts\nlinkedin_contacts_scraper.py]
-    E --> F[Final Dataset\nlinkedin_contacts_final_contacts.csv]
+    A[Scrape Jobs Apify Actor] --> B[Industry Filter industry_filter.py]
+    B --> C[Fetch Company Size fetch_company_size.py]
+    C --> D[Size Filter size_filter.py]
+    D --> E[Fetch Contacts linkedin_contacts_scraper.py]
+    E --> F[Final Dataset linkedin_contacts_final_contacts.csv]
 ```
 
 ------------------------------------------------------------------------
